@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --btnBg: #254336;
+    --bodyBg: #DAD3BE;
+    --excBg: #B7B597;
+  }
+
+body {
+    background-color: var(--bodyBg);
+}
+
+ul {
+    list-style: none;
+}
+
+.panel {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px 0;
+}
+
+.panel__excursions {
+    width: 70%;
+}
+
+.excursions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.excursions__item {
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(50% - 20px);
+}
+
+.panel__form {
+    background-color: var(--excBg);
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.uploader, .order {
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.excursions__item--prototype, .summary__item--prototype {
+    display: none;
+}
+
+.excursions__item {
+    background-color: var(--excBg);
+}
+
+
+input[type="submit"] {
+    width: 150px;
+    height: 30px;
+    background-color: var(--btnBg);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+input[type="submit"]:hover, .uploader__input:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: black;
+}
+
+.order__field--submit, .excursions__field--submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.summary__item {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.summary__btn-remove {
+    position: absolute;
+    right: 0;
+}
+
+.panel__basket {
+    width: 600px;
+    height: 350px;
+    margin: 50px auto;
+    background-color: var(--excBg);
+    display: none;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    border-radius: 15px;
+}
+
+.panel__basket-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.panel__basket-title {
+    font-size: 2rem;
+    align-self: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.panel__basket-user-name, .panel__basket-user-email {
+    font-size: 1.2rem;
+    padding: 0 0 1rem 1rem;
+}
+
+.panel__basket-price {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.basket {
+    display: block;
+}
+
+.panel__basket-remove-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1.5rem;
+    background: 0;
+    border: none;
+}
+.panel__basket-remove-button:hover {
+    font-size: 1.8rem;
+}
+
+.hide-panel {
+    display: none;
+}
