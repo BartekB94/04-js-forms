@@ -1,6 +1,6 @@
 See the live version of [Excursion loader](https://bartekb94.github.io/04-js-forms/)
 
-This project is based on the use of forms, validation, adding and resetting data
+This project is based on the use of forms, validation, adding and resetting data with JavaScipt
 
 ###   Features
 - uploading and displaying excursions from .csv file [Example.csv](https://github.com/BartekB94/04-js-forms/blob/main/example.csv)
