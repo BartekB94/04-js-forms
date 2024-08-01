@@ -4,8 +4,8 @@ This project is based on the use of forms, validation, adding and resetting data
 
 ###   Features
 - uploading and displaying excursions from .csv file [Example.csv](https://github.com/BartekB94/04-js-forms/blob/main/example.csv)
-- user info validation
-  
+- user information validation
+- displaying summary of basket with remove buttons  
 
 ---
 
