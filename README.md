@@ -48,9 +48,11 @@ uploadInputEl.addEventListener('change', function (e) {
 ---
 
 ## 🙋‍♂️ Feel free to contact me
-Write sth nice ;) Find me on   <a href="https://www.linkedin.com/in/bartekb94/" target="_blank">
+Write sth nice ;) Contact me via: <a href="mailto:wurir1994@gmail.com">
+    <img align="center" src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+      </a><a href="https://www.linkedin.com/in/bartekb94/" target="_blank">
     <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
+      </a>
 
 &nbsp;
 
